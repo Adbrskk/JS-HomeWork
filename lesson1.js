@@ -77,17 +77,17 @@ if (randomNumber < 20) {
     Условную конструкцию из задания 4, перепишите с помощью Switch Case
 */
 
-let randomNumber = Math.floor (Math.random() * 100);
+let randomNumberNew = Math.floor (Math.random() * 100);
 
 switch (true) {
-    case (randomNumber < 20):
+    case (randomNumberNew < 20):
         alert ("randomNumber меньше 20");
         break;
-    case (randomNumber > 50):
+    case (randomNumberNew > 50):
         alert ("randomNumber больше 50");
         break;
     default:
-        alert ("randomNumber больше 20, и меньше 50");
+        alert ("randomNumberNew больше 20, и меньше 50");
         break;
 }
 
