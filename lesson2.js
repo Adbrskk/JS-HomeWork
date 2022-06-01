@@ -109,3 +109,10 @@ fullName (firstName, lastName);
     Вывести в консоль с помощью цикла WHILE все нечетные числа от 21 до 67
     
 */
+
+let start = 21;
+let finish = 67;
+
+while (i > start || i < finish || (start%2) +1) {
+    console.log(i);
+}
