@@ -98,7 +98,7 @@ let firstName = Alina;
 let lastName = Dobroskok;
 
 function fullName(firstName, lastName) {
-    return ${firstName} ${lastName};
+    return "${firstName} ${lastName}";
 }
 
 fullName (firstName, lastName);
@@ -113,8 +113,9 @@ fullName (firstName, lastName);
 let start = 21;
 let finish = 67;
 
-num = start-(start%2)+1;
-while(num<=finish) {
-    console.log(num);
-    num+= 2;
+while (start < finish) {
+    if (start % 2 !== 0) {
+        console.log (start);
+    }
+    start++;
 }
