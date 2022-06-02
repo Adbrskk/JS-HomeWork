@@ -94,8 +94,8 @@ alert( text );
     При вызове функции передайте ей, в качестве аргумента, свое имя и фамилию.
 */
 
-let firstName = Alina;
-let lastName = Dobroskok;
+let firstName = "Alina";
+let lastName = "Dobroskok";
 
 function fullName(firstName, lastName) {
     return `${firstName} ${lastName}`;
