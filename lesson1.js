@@ -29,7 +29,7 @@ function findSquare(side1, side2) {
     return side1 * side2;
 }
 
-findSquera (40, 70);
+findSquera(40, 70)
 
 /* 
     Задание 3:
