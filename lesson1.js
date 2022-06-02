@@ -46,6 +46,14 @@ findSquera (40, 70);
 
 */
 
+time = 2;
+speedOfFirst = 95;
+speedOfSecond = 114;
+
+speedConvergence = speedOfFirst + speedOfSecond;
+result = speedConvergence * time;
+alert(result);
+
 /* 
     Задание 4:
     

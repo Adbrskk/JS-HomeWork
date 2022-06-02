@@ -113,6 +113,8 @@ fullName (firstName, lastName);
 let start = 21;
 let finish = 67;
 
-while (i > start || i < finish || (start%2) +1) {
-    console.log(i);
+while (start < finish) {
+    if (i = start%2) + 1 {
+        console.log(i);
+    }
 }
