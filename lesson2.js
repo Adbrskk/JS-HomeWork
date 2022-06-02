@@ -98,7 +98,7 @@ let firstName = Alina;
 let lastName = Dobroskok;
 
 function fullName(firstName, lastName) {
-    return "${firstName} ${lastName}";
+    return `${firstName} ${lastName}`;
 }
 
 fullName (firstName, lastName);
