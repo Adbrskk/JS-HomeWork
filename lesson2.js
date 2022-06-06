@@ -30,6 +30,8 @@ let Human = {
     myPet: true
 };
 
+console.log(Human);
+
 /* 
     Задание 3:
 
@@ -101,7 +103,7 @@ function fullName(firstName, lastName) {
     return `${firstName} ${lastName}`;
 }
 
-fullName (firstName, lastName);
+fullName(firstName, lastName);
 
 /* 
     Задание 5:
@@ -117,5 +119,23 @@ while (start < finish) {
     if (start % 2 !== 0) {
         console.log (start);
     }
+
     start++;
 }
+
+
+let name = "Патрик";
+let secondName = "Жевтоня";
+let vegetables = [
+  'carrot',
+  'cucumber',
+  'potato'
+];
+
+console.log(`${vegetables[1]} ${vegetables[0]} ${vegetables[2]}`);
+
+console.log(name + " " + secondName);
+
+console.log(`${name} ${secondName}`);
+
+

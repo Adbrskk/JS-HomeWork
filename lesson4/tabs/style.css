@@ -2,6 +2,7 @@ h1 {
     width: 100%;
     text-align: center;
 }
+
 .tabs-block-wrapper {
     width: 100%;
     display: flex;
@@ -9,9 +10,11 @@ h1 {
     align-items: center;
     flex-flow: column;
 }
+
 #tabs {
     display: flex;
 }
+
 .tab-btn {
     width: 100px;
     height: 40px;
@@ -21,7 +24,9 @@ h1 {
     align-items: center;
     border: 1px solid black;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 .tab-btn.active {
     background-color: blue;
     color: #ffffff;
@@ -41,3 +46,12 @@ h1 {
 .content.active {
     display: block;
 }
+
+.content-dop {
+    display: flex;
+}
+
+/*.tab-btn-dop.active {*/
+/*    background-color: blue;*/
+/*    color: #ffffff;*/
+/*}*/
